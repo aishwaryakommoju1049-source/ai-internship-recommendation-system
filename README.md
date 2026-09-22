@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# AI-Based Internship Recommendation System
 
-## Project info
+An AI-powered internship discovery and preparation platform designed to help students find relevant internship opportunities, evaluate their skills, analyze resumes, track applications, and follow personalized learning paths.
 
-**URL**: https://lovable.dev/projects/07cb8f8f-1908-4d95-ae68-470897813ff3
+## Key Features
 
-## How can I edit this code?
+- **Personalized Dashboard** – Profile completion, skill-match score, applications, certificates, and recommendations.
+- **AI-Powered Internship Search** – Search and filter internships by company type, location, stipend, skills, and relevance.
+- **Internship Recommendations** – Matches opportunities with a student's skills and profile.
+- **Resume Analyzer** – Resume upload with personalized insights and recommendations.
+- **Application Tracker** – Track applications, progress, interviews, schedules, and outcomes.
+- **Skill Assessment** – Assess product management, data analytics, market research, and Agile/Scrum skills.
+- **Course Recommendations** – Explore learning resources and track progress, assignments, and certificates.
+- **Progress Monitoring** – Centralized view of learning, applications, assessments, and skills.
 
-There are several ways of editing your application.
+## Technology Stack
 
-**Use Lovable**
+- **Frontend:** React, TypeScript
+- **Build Tool:** Vite
+- **UI:** Tailwind CSS, shadcn/ui
+- **Core Concepts:** Internship recommendation, skill matching, resume analysis, data analytics, application tracking
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07cb8f8f-1908-4d95-ae68-470897813ff3) and start prompting.
+## Application Modules
 
-Changes made via Lovable will be committed automatically to this repo.
+```text
+Dashboard
+├── Profile Completion
+├── Skill Match Score
+├── Internship Recommendations
+└── Application & Certificate Summary
 
-**Use your preferred IDE**
+Internship Search
+├── Keyword Search
+├── Company Type Filters
+├── Location Filter
+├── Stipend Filter
+├── Skill Filters
+└── Relevance-based Matching
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Resume Analyzer
+├── Resume Upload
+└── Personalized Recommendations
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Application Tracker
+├── Application Status
+├── Interview Tracking
+├── Progress Tracking
+└── Calendar View
 
-Follow these steps:
+Skill Assessment
+├── Product Management
+├── Data Analytics & Metrics
+├── Market Research
+└── Agile & Scrum
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Courses
+├── Recommended Learning
+├── Progress Tracking
+├── Assignments
+└── Certificates
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Screenshots
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Dashboard
+![Dashboard](screenshots/01-dashboard.png)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Resume Analyzer
+![Resume Analyzer](screenshots/02-resume-analyzer.png)
+
+### Internship Search
+![Internship Search](screenshots/03-internship-search.png)
+
+### Application Tracker
+![Application Tracker](screenshots/04-application-tracker.png)
+
+### Skill Assessment Center
+![Skill Assessment](screenshots/05-skill-assessment.png)
+
+### Courses and Learning Progress
+![Courses](screenshots/06-courses.png)
+
+## Running the Project Locally
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/aishwaryakommoju1049-source/ai-internship-recommendation-system.git
+cd ai-internship-recommendation-system
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open the local development URL shown in the terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Objective
 
-**Use GitHub Codespaces**
+The project provides a centralized platform for students to discover internships, understand their skill gaps, analyze their resumes, manage applications, and follow relevant learning resources.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Repository
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/07cb8f8f-1908-4d95-ae68-470897813ff3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+GitHub: https://github.com/aishwaryakommoju1049-source/ai-internship-recommendation-system
